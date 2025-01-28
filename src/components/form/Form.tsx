@@ -1,6 +1,6 @@
 "use client";
 
-import postEmail from "@/app/utils/mail.service";
+import postEmail from "@/utils/mail.service";
 
 import { AnimatePresence, motion } from "motion/react";
 import { useForm } from "react-hook-form";
