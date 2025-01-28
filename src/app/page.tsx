@@ -1,6 +1,4 @@
-"use client";
-
-import Subscriber from "../components/subscriber/Subscriber";
+import { Subscriber } from "../components/subscriber/Subscriber";
 
 export default function Home() {
   return (

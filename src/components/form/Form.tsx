@@ -1,6 +1,6 @@
 "use client";
 
-import postEmail from "@/utils/mail.service";
+import { postEmail } from "@/utils/mail.service";
 
 import { AnimatePresence, motion } from "motion/react";
 import { useForm } from "react-hook-form";
@@ -9,7 +9,7 @@ type FormValues = {
   email: string;
 };
 
-export default function Form() {
+export function Form() {
   const {
     register,
     handleSubmit,

@@ -1,10 +1,10 @@
 "use client";
 
-import Form from "../form/Form";
+import { Form } from "../form/Form";
 import { Send } from "../svg";
 import { motion } from "motion/react";
 
-export default function Subscriber() {
+export function Subscriber() {
   return (
     <motion.section
       initial={{ opacity: 0, scale: 0 }}

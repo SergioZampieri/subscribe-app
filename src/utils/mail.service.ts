@@ -2,7 +2,7 @@ type EmailBody = {
   address: string;
 };
 
-export default async function postEmail(email: string) {
+export async function postEmail(email: string) {
   const API_URL = process.env.NEXT_PUBLIC_API_URL;
   const body: EmailBody = { address: email };
   try {
