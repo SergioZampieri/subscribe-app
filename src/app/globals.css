@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --white: rgb(255, 255, 255);
+  /* #ffffff */
+  --light-black: rgb(30, 30, 30);
+  /* #1E1E1E */
+  --black: rgb(30, 30, 30);
+  /* #000000 */
+  --gray: rgb(181, 181, 181);
+  /* #B5B5B5 */
+  --lime: rgb(230, 252, 21);
+  /* #E6FC15 */
+  --pear: rgb(227, 240, 142);
+  /* #E3F08E */
+  --error: rgb(211, 0, 0);
+}
