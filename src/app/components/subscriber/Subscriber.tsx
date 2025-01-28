@@ -1,3 +1,5 @@
+"use client";
+
 import Form from "../form/Form";
 import { Send } from "../svg";
 import { motion } from "motion/react";
