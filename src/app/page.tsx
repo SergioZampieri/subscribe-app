@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 
 import Subscriber from "../components/subscriber/Subscriber";
 
