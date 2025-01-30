@@ -9,7 +9,7 @@ export default function Home() {
       <footer className="block px-16 py-6 text-center">
         <p className="text-base font-medium text-gray">
           <span>© 2025 Subscribe Form. All Rights Reserved. </span>
-          <span className="block md:inline">Design by EquipoDotGuru.</span>
+          <span className="block md:inline">Developed By Sergio.</span>
         </p>
       </footer>
     </div>
